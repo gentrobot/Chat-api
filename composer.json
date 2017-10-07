@@ -1,11 +1,9 @@
 {
-    "name": "whatsapp/chat-api",
+    "name": "rchbl/chat-api",
     "description": "The PHP WhatsApp library",
     "license": "GPL-3.0+",
     "keywords": [
-        "WhatsApp",
-        "WhatsAPI",
-        "Chat-API"
+        
     ],
     "authors": [
         {
@@ -14,11 +12,6 @@
             "homepage": "https://github.com/mgp25/Chat-API/graphs/contributors"
         }
     ],
-    "support": {
-        "issues": "https://github.com/mgp25/Chat-API/issues",
-        "wiki": "https://github.com/mgp25/Chat-API/wiki",
-        "source": "https://github.com/mgp25/Chat-API"
-    },
     "autoload": {
         "classmap": [
             "src/"
