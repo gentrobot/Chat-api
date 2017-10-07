@@ -1,5 +1,5 @@
 {
-    "name": "rchbl/chat-api",
+    "name": "gentrobot/chat-api",
     "description": "The PHP WhatsApp library",
     "license": "GPL-3.0+",
     "keywords": [
@@ -7,7 +7,12 @@
     ],
     "authors": [
         {
-            "role": "Contributors",
+            "role": "User",
+            "name": "Chat API (Modified)",
+            "homepage": "http://www.rchbl.in/"
+        },
+        {
+            "role": "Original Contributors",
             "name": "Chat API Contributing Team",
             "homepage": "https://github.com/mgp25/Chat-API/graphs/contributors"
         }
