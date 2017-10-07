@@ -10,7 +10,7 @@ class SignedPreKeyRecord
 {
     protected $structure;
 
-    public function SignedPreKeyRecord($id = null, $timestamp = null, $keyPair = null, $signature = null, $serialized = null) // [int id, long timestamp, ECKeyPair keyPair, byte[] signature]
+    public function __construct($id = null, $timestamp = null, $keyPair = null, $signature = null, $serialized = null) // [int id, long timestamp, ECKeyPair keyPair, byte[] signature]
     {
         $struct = new Textsecure_SignedPreKeyRecordStructure();
         if ($serialized == null) {

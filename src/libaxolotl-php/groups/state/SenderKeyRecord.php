@@ -8,7 +8,7 @@ class SenderKeyRecord
 {
     protected $senderKeyStates;
 
-    public function SenderKeyRecord($serialized = null)
+    public function __construct($serialized = null)
     {
         $this->senderKeyStates = [];
 

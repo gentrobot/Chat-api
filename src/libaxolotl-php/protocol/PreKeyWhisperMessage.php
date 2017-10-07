@@ -19,7 +19,7 @@
         protected $message;
         protected $serialized;
 
-        public function PreKeyWhisperMessage($messageVersion = null,
+        public function __construct($messageVersion = null,
                                              $registrationId = null,
                                              $preKeyId = null,
                                              $signedPreKeyId = null,

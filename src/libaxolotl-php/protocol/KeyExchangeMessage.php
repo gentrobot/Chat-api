@@ -22,7 +22,7 @@
         protected $identityKey;
         protected $serialized;
 
-        public function KeyExchangeMessage($messageVersion = null, $sequence = null, $flags = null,
+        public function __construct($messageVersion = null, $sequence = null, $flags = null,
                                             $baseKey = null, $baseKeySignature = null,
                                             $ratchetKey = null,
                                             $identityKey = null,

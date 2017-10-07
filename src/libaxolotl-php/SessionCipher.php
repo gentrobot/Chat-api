@@ -47,7 +47,7 @@ class SessionCipher
     protected $deviceId;
     protected $sessionBuilder;
 
-    public function SessionCipher($sessionStore, $preKeyStore, $signedPreKeyStore, $identityKeyStore, $recepientId, $deviceId)
+    public function __construct($sessionStore, $preKeyStore, $signedPreKeyStore, $identityKeyStore, $recepientId, $deviceId)
     {
         $this->sessionStore = $sessionStore;
         $this->preKeyStore = $preKeyStore;

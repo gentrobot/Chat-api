@@ -7,7 +7,7 @@ class inmemorysenderkeystore extends SenderKeyStore
 {
     protected $store;
 
-    public function InMemorySenderKeyStore()
+    public function __construct()
     {
         $this->store = [];
     }

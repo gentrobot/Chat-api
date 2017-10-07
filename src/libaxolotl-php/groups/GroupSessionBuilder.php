@@ -8,7 +8,7 @@ class GroupSessionBuilder
 {
     protected $senderKeyStore;
 
-    public function GroupSessionBuilder($senderKeyStore)
+    public function __construct($senderKeyStore)
     {
         $this->senderKeyStore = $senderKeyStore;
     }

@@ -15,7 +15,7 @@
         protected $cipherText;
         protected $serialized;
 
-        public function WhisperMessage($messageVersion = null,
+        public function __construct($messageVersion = null,
                                         $macKey = null,
                                         $senderRatchetKey = null,
                                         $counter = null,

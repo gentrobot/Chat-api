@@ -14,7 +14,7 @@
         protected $iteration;
         protected $ciphertext;
 
-        public function SenderKeyMessage($keyId = null, $iteration = null, $ciphertext = null, $signatureKey = null, $serialized = null)
+        public function __construct($keyId = null, $iteration = null, $ciphertext = null, $signatureKey = null, $serialized = null)
         {
             if ($serialized == null) {
                 $version = ByteUtil::intsToByteHighAndLow(self::CURRENT_VERSION, self::CURRENT_VERSION);

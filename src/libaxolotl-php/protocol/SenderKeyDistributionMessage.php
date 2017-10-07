@@ -15,7 +15,7 @@ class SenderKeyDistributionMessage extends CiphertextMessage
     protected $signatureKey;    // ECPublicKey
     protected $serialized;    // byte[]
 
-    public function SenderKeyDistributionMessage($id = null, $iteration = null, $chainKey = null, $signatureKey = null, $serialized = null) // [int id, int iteration, byte[] chainKey, ECPublicKey signatureKey]
+    public function __construct($id = null, $iteration = null, $chainKey = null, $signatureKey = null, $serialized = null) // [int id, int iteration, byte[] chainKey, ECPublicKey signatureKey]
     {
         if ($serialized == null) {
             $version = ByteUtil::intsToByteHighAndLow(self::CURRENT_VERSION, self::CURRENT_VERSION);

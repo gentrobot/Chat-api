@@ -9,7 +9,7 @@ class inmemorysignedprekeystore extends SignedPreKeyStore
 {
     protected $store;
 
-    public function InMemorySignedPreKeyStore()
+    public function __construct()
     {
         $this->store = [];
     }

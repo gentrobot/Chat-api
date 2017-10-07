@@ -10,7 +10,7 @@ class SenderKeyState
     protected $senderKeyStateStructure;
     protected $senderChainKey;
 
-    public function SenderKeyState($id = null, $iteration = null, $chainKey = null,
+    public function __construct($id = null, $iteration = null, $chainKey = null,
                  $signatureKeyPublic = null, $signatureKeyPrivate = null,
                  $signatureKeyPair = null, $senderKeyStateStructure = null)
     {

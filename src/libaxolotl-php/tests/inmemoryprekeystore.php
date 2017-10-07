@@ -11,7 +11,7 @@ class inmemoryprekeystore extends PreKeyStore
 {
     protected $store;
 
-    public function InMemoryPreKeyStore()
+    public function __construct()
     {
         $this->store = [];
     }
